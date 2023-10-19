@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uTh2Pwvs/ezPg+jPgTbdPeNx1HYIqqAGx1p4hCsRoG+A+NKb/jZjBq8J+UFW5cNmUMLZxwMb57oeJMGMLEGQlQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\isaac\\OneDrive\\Documents\\college\\prog_jeux\\TP3\\a20c02b_playerMovement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\isaac\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "C:\\Users\\isaac\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "C:\\Users\\isaac\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

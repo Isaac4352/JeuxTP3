@@ -1,0 +1,67 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1697749676
+default_env.tres::Environment::7810442756599333015::1697749607::0::1::::<><>::
+followCam.cs::CSharpScript::-1::1697726909::0::1::::<><>::
+icon.png::CompressedTexture2D::972235733733624679::1697509788::1697509871::1::::<><>::
+Player.cs::CSharpScript::-1::1697719838::0::1::::<><>::
+Player.png::CompressedTexture2D::4243866176673833621::1697509743::1697509871::1::::<><>::
+Village.tscn::PackedScene::-1::1697633667::0::1::::<><>::res://World/Particle/FallingLeaf.tscn<>res://World/Ld/DestroyableItem/DestroyableItem.tscn<>res://World/Ld/MusicArea/MusicArea.tscn<>res://World/Actor/Monster/Monster.tscn<>res://World/Backgrounds/Tileset/TilesetFloor.tres<>res://World/Backgrounds/Tileset/TilesetElement.tres<>res://World/Backgrounds/Tileset/TilesetFloorDetail.tres<>res://World/Backgrounds/Tileset/TilesetRelief.tres<>res://World/Particle/Clouds.tscn<>res://World/Particle/Snow.tscn<>res://World/Particle/Rain.tscn<>res://World/Particle/Smoke.tscn<>res://World/Particle/RainOnFloor.tscn<>res://World/Particle/Spark.tscn<>res://World/Backgrounds/TilesetHouse.png<>res://World/Actor/Npc/Dog/SpriteSheet.png<>res://Resource/Music/18 - Aquatic.ogg<>res://World/Actor/Npc/RedNinja/Animation.tres<>res://Resource/Music/23 - Road.ogg<>res://World/Actor/Npc/Samurai/Animation.tres<>res://Resource/Music/13 - Mystical.ogg<>res://World/Actor/Npc/OldWoman/SpriteSheet.png<>res://World/Actor/Npc/Warrior/SpriteSheet.png<>res://Hud/DialogBox/DialogArea.tscn<>res://World/Actor/Npc/Npc.tscn
+World.tscn::PackedScene::7171695192185301910::1697749607::0::1::::<><>::uid://b1p04doa55hx2::::res://Player.png<>res://Player.cs<>uid://bqppfrv3vwkoa::::res://Backgrounds/Tileset.png<>res://followCam.cs<>uid://c34l45ohvis2d::::res://Backgrounds/TilesetNature.png<>uid://bl10thfr7d2ao::::res://Backgrounds/TilesetFloor.png<>uid://e1x8y5gkjp4a::::res://Backgrounds/Animated/Flower/SpriteSheet16x16.png<>uid://da076ttdos10f::::res://Backgrounds/Animated/Plant/SpriteSheet16x16.png
+::res://Backgrounds/::1697682055
+Tileset.png::CompressedTexture2D::3541328458712514116::1614168758::1697633928::1::::<><>::
+TilesetElement.png::CompressedTexture2D::4927469988555868013::1619798744::1697633928::1::::<><>::
+TilesetFloor.png::CompressedTexture2D::3213724016423153266::1619525591::1697633928::1::::<><>::
+TilesetFloorDetail.png::CompressedTexture2D::8672461323362768512::1619541892::1697633928::1::::<><>::
+TilesetHole.png::CompressedTexture2D::3867215849679593090::1614184079::1697633928::1::::<><>::
+TilesetHouse.png::CompressedTexture2D::7337492455073478853::1619797717::1697633928::1::::<><>::
+TilesetNature.png::CompressedTexture2D::6798717216736728785::1614343641::1697633928::1::::<><>::
+TilesetRelief.png::CompressedTexture2D::3811494484093458064::1614354884::1697633928::1::::<><>::
+TilesetSnow.png::CompressedTexture2D::6582402430759260546::1614341457::1697633928::1::::<><>::
+TilesetWater.png::CompressedTexture2D::2981012757500450370::1619886688::1697633928::1::::<><>::
+::res://Backgrounds/Animated/::1697682055
+::res://Backgrounds/Animated/Conveyor Belt/::1697682055
+Left.png::CompressedTexture2D::4764893670606124032::1697682055::1697682055::1::::<><>::
+Middle.png::CompressedTexture2D::4414117926854201588::1697682055::1697682055::1::::<><>::
+Right.png::CompressedTexture2D::9048628638937197709::1697682055::1697682055::1::::<><>::
+::res://Backgrounds/Animated/Flag/::1697682055
+FlagBlack16x16.png::CompressedTexture2D::1994271430619133556::1697682055::1697682055::1::::<><>::
+FlagBlue16x16.png::CompressedTexture2D::7302407273720737498::1697682055::1697682055::1::::<><>::
+FlagBrown16x16.png::CompressedTexture2D::6250060425080807244::1697682055::1697682055::1::::<><>::
+FlagGray16x16.png::CompressedTexture2D::6115015919868776295::1697682055::1697682055::1::::<><>::
+FlagGreen16x16.png::CompressedTexture2D::4739562396943386386::1697682055::1697682055::1::::<><>::
+FlagRed16x16.png::CompressedTexture2D::6830413789876812455::1697682055::1697682055::1::::<><>::
+FlagWhite16x16.png::CompressedTexture2D::4081825779701047033::1697682055::1697682055::1::::<><>::
+FlagYellow16x16.png::CompressedTexture2D::4262563828404841968::1697682055::1697682055::1::::<><>::
+::res://Backgrounds/Animated/Flower/::1697682055
+SpriteSheet16x16.png::CompressedTexture2D::335885925381057854::1697682055::1697682055::1::::<><>::
+::res://Backgrounds/Animated/MillPropeller/::1697682055
+MillPropeller_A_64x64.png::CompressedTexture2D::7587102931851262416::1697682055::1697682055::1::::<><>::
+MillPropeller_B_64x64.png::CompressedTexture2D::7278130813289642459::1697682055::1697682055::1::::<><>::
+::res://Backgrounds/Animated/Plant/::1697682055
+SpriteSheet16x16.png::CompressedTexture2D::7212870825761066191::1697682055::1697682055::1::::<><>::
+::res://Backgrounds/Animated/QuickSand/::1697682055
+QuickSand32x32.png::CompressedTexture2D::8671910061676515198::1697682055::1697682055::1::::<><>::
+::res://Backgrounds/Animated/Water Ripples/::1697682055
+SpriteSheet16x16.png::CompressedTexture2D::1798350628470350767::1697682055::1697682055::1::::<><>::
+::res://Backgrounds/Animated/Waterfall/::1697682055
+BottomSheet16x16.png::CompressedTexture2D::7960979901888908018::1697682055::1697682055::1::::<><>::
+MiddleSheet16x16.png::CompressedTexture2D::3445177631377583492::1697682055::1697682055::1::::<><>::
+TopSheet16x16.png::CompressedTexture2D::1870551923733316004::1697682055::1697682055::1::::<><>::
+::res://Backgrounds/Animated/WaterMill/::1697682055
+Watermill_A_34x36.png::CompressedTexture2D::8853848922863740068::1697682055::1697682055::1::::<><>::
+Watermill_B_34x36.png::CompressedTexture2D::7145456814060102874::1697682055::1697682055::1::::<><>::
+::res://Backgrounds/Interior/::1697633928
+TilesetInterior.png::CompressedTexture2D::4483495631476857083::1619796242::1697633928::1::::<><>::
+TilesetInteriorFloor.png::CompressedTexture2D::1095390931876627780::1619800238::1697633928::1::::<><>::
+TilesetWallSimple.png::CompressedTexture2D::7709075165876501824::1619724519::1697633928::1::::<><>::
+::res://Backgrounds/Tileset/::1697633922
+Tileset.tres::TileSet::-1::1697633858::0::1::::<><>::res://World/Backgrounds/Tileset.png
+TilesetElement.tres::TileSet::-1::1697633858::0::1::::<><>::res://World/Backgrounds/TilesetNature.png<>res://World/Backgrounds/TilesetElement.png
+TilesetFloor.tres::TileSet::-1::1697633858::0::1::::<><>::res://World/Backgrounds/TilesetFloor.png<>res://World/Backgrounds/TilesetSnow.png<>res://World/Backgrounds/TilesetWater.png<>res://World/Backgrounds/Interior/TilesetInteriorFloor.png
+TilesetFloorDetail.tres::TileSet::-1::1697633858::0::1::::<><>::res://World/Backgrounds/TilesetHole.png<>res://World/Backgrounds/TilesetFloorDetail.png
+TilesetInteriorFloor.tres::TileSet::-1::1697633858::0::1::::<><>::res://World/Backgrounds/Interior/TilesetInteriorFloor.png
+TilesetInteriorWall.tres::TileSet::-1::1697633858::0::1::::<><>::res://World/Backgrounds/Interior/TilesetInterior.png
+TilesetRelief.tres::TileSet::-1::1697633858::0::1::::<><>::res://World/Backgrounds/TilesetRelief.png
+::res://Maps/::1697633477
+Interior.tscn::PackedScene::-1::1619719797::0::1::::<><>::res://World/Backgrounds/Tileset/TilesetElement.tres<>res://World/Ld/MusicArea/MusicArea.tscn<>res://Resource/Music/16 - Melancholia.ogg<>res://World/Backgrounds/Tileset/TilesetInteriorWall.tres<>res://World/Backgrounds/Tileset/TilesetInteriorFloor.tres
+Village.tscn::PackedScene::-1::1620045519::0::1::::<><>::res://World/Particle/FallingLeaf.tscn<>res://World/Ld/DestroyableItem/DestroyableItem.tscn<>res://World/Ld/MusicArea/MusicArea.tscn<>res://World/Actor/Monster/Monster.tscn<>res://World/Backgrounds/Tileset/TilesetFloor.tres<>res://World/Backgrounds/Tileset/TilesetElement.tres<>res://World/Backgrounds/Tileset/TilesetFloorDetail.tres<>res://World/Backgrounds/Tileset/TilesetRelief.tres<>res://World/Particle/Clouds.tscn<>res://World/Particle/Snow.tscn<>res://World/Particle/Rain.tscn<>res://World/Particle/Smoke.tscn<>res://World/Particle/RainOnFloor.tscn<>res://World/Particle/Spark.tscn<>res://World/Backgrounds/TilesetHouse.png<>res://World/Actor/Npc/Dog/SpriteSheet.png<>res://Resource/Music/18 - Aquatic.ogg<>res://World/Actor/Npc/RedNinja/Animation.tres<>res://Resource/Music/23 - Road.ogg<>res://World/Actor/Npc/Samurai/Animation.tres<>res://Resource/Music/13 - Mystical.ogg<>res://World/Actor/Npc/OldWoman/SpriteSheet.png<>res://World/Actor/Npc/Warrior/SpriteSheet.png<>res://Hud/DialogBox/DialogArea.tscn<>res://World/Actor/Npc/Npc.tscn
