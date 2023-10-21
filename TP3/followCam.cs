@@ -12,6 +12,7 @@ public partial class followCam : Camera2D
 		var worldSizePx = mapRect.Size * tileSize;
 		LimitRight = worldSizePx.X;
 		LimitBottom = worldSizePx.Y;
+		GD.Print(worldSizePx);
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.

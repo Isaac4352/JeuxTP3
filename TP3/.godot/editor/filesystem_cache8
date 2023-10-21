@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697749676
-default_env.tres::Environment::7810442756599333015::1697749607::0::1::::<><>::
+::res://::1697905676
+default_env.tres::Environment::7810442756599333015::1697904961::0::1::::<><>::
 followCam.cs::CSharpScript::-1::1697726909::0::1::::<><>::
 icon.png::CompressedTexture2D::972235733733624679::1697509788::1697509871::1::::<><>::
-Player.cs::CSharpScript::-1::1697719838::0::1::::<><>::
+Player.cs::CSharpScript::-1::1697905593::0::1::::<><>::
 Player.png::CompressedTexture2D::4243866176673833621::1697509743::1697509871::1::::<><>::
 Village.tscn::PackedScene::-1::1697633667::0::1::::<><>::res://World/Particle/FallingLeaf.tscn<>res://World/Ld/DestroyableItem/DestroyableItem.tscn<>res://World/Ld/MusicArea/MusicArea.tscn<>res://World/Actor/Monster/Monster.tscn<>res://World/Backgrounds/Tileset/TilesetFloor.tres<>res://World/Backgrounds/Tileset/TilesetElement.tres<>res://World/Backgrounds/Tileset/TilesetFloorDetail.tres<>res://World/Backgrounds/Tileset/TilesetRelief.tres<>res://World/Particle/Clouds.tscn<>res://World/Particle/Snow.tscn<>res://World/Particle/Rain.tscn<>res://World/Particle/Smoke.tscn<>res://World/Particle/RainOnFloor.tscn<>res://World/Particle/Spark.tscn<>res://World/Backgrounds/TilesetHouse.png<>res://World/Actor/Npc/Dog/SpriteSheet.png<>res://Resource/Music/18 - Aquatic.ogg<>res://World/Actor/Npc/RedNinja/Animation.tres<>res://Resource/Music/23 - Road.ogg<>res://World/Actor/Npc/Samurai/Animation.tres<>res://Resource/Music/13 - Mystical.ogg<>res://World/Actor/Npc/OldWoman/SpriteSheet.png<>res://World/Actor/Npc/Warrior/SpriteSheet.png<>res://Hud/DialogBox/DialogArea.tscn<>res://World/Actor/Npc/Npc.tscn
-World.tscn::PackedScene::7171695192185301910::1697749607::0::1::::<><>::uid://b1p04doa55hx2::::res://Player.png<>res://Player.cs<>uid://bqppfrv3vwkoa::::res://Backgrounds/Tileset.png<>res://followCam.cs<>uid://c34l45ohvis2d::::res://Backgrounds/TilesetNature.png<>uid://bl10thfr7d2ao::::res://Backgrounds/TilesetFloor.png<>uid://e1x8y5gkjp4a::::res://Backgrounds/Animated/Flower/SpriteSheet16x16.png<>uid://da076ttdos10f::::res://Backgrounds/Animated/Plant/SpriteSheet16x16.png
+World.tscn::PackedScene::7171695192185301910::1697904961::0::1::::<><>::uid://b1p04doa55hx2::::res://Player.png<>res://Player.cs<>uid://bqppfrv3vwkoa::::res://Backgrounds/Tileset.png<>res://followCam.cs<>uid://c34l45ohvis2d::::res://Backgrounds/TilesetNature.png<>uid://bl10thfr7d2ao::::res://Backgrounds/TilesetFloor.png<>uid://e1x8y5gkjp4a::::res://Backgrounds/Animated/Flower/SpriteSheet16x16.png<>uid://da076ttdos10f::::res://Backgrounds/Animated/Plant/SpriteSheet16x16.png
 ::res://Backgrounds/::1697682055
 Tileset.png::CompressedTexture2D::3541328458712514116::1614168758::1697633928::1::::<><>::
 TilesetElement.png::CompressedTexture2D::4927469988555868013::1619798744::1697633928::1::::<><>::

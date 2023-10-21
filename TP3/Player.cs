@@ -6,49 +6,61 @@ public partial class Player : CharacterBody2D
 {
 	[Export]
 	private float Speed = 50.0f;
-
 	const int ACCELERATION = 100;
+	private Vector2 starting_direction;
+	private Vector2 direction;
+	private AnimationNodeStateMachinePlayback stateMachine;
+	private AnimationTree animationTree;
+
+	 void _ready() {
+		stateMachine = GetNode<AnimationTree>("AnimationTree").Get("parameters/playback").As<AnimationNodeStateMachinePlayback>();
+	    animationTree = GetNode<AnimationTree>("AnimationTree");
+		starting_direction =  new Vector2(0,(float)0.1);
+		updateAnimationParameter(starting_direction);
+	 }
 
 	private Vector2 GetInput() {
-		var direction = new Vector2();
-
-		direction.X = Input.GetActionStrength("ui_right") - Input.GetActionStrength("ui_left");
-		direction.Y = Input.GetActionStrength("ui_down") - Input.GetActionStrength("ui_up");
+		direction = new Vector2(		
+			Input.GetActionStrength("ui_right") - Input.GetActionStrength("ui_left"),
+			Input.GetActionStrength("ui_down") - Input.GetActionStrength("ui_up")
+		);
 		return direction;
 	}
+
+	private void updateAnimationParameter(Vector2 moveInput) {
+		if(moveInput != Vector2.Zero) 
+		{
+			animationTree.Set("parameters/idle/blend_position", moveInput);
+			animationTree.Set("parameters/walk/blend_position", moveInput);
+		}
+	}
+
+	private void pickNewState() {
+		if(Velocity != Vector2.Zero) {
+			stateMachine.Travel("walk");
+		}
+		else {
+			stateMachine.Travel("idle");
+		}
+	}
+
 	public override void _PhysicsProcess(double delta)
 	{
 		// Velocity is a property of RigidBody2D.
-		var dt = (float)delta;
 
+		//parameters/idle/blend_position
 		Vector2 velocity = Velocity;
-		AnimationPlayer animation = GetNode<AnimationPlayer>("AnimationPlayer");
 
 		// You should replace UI actions with custom gameplay actions.
-		Vector2 direction = GetInput().Normalized();
-		if (direction != Vector2.Zero)
-		{
-			velocity = direction  * ACCELERATION * Speed * (float)delta; //peut aller trop loin
+		Vector2 direction = GetInput();
+		//GD.Print(Position);
+		updateAnimationParameter(direction);
+		//GD.Print(velocity);
 
-			if(	Input.IsActionPressed("ui_right")) animation.Play("walk");
-			
-			
-			if(	Input.IsActionPressed("ui_left")) animation.Play("walk_left");
-		
-			if(	Input.IsActionPressed("ui_up")) animation.Play("walk_up");
-				
-	
-			if(	Input.IsActionPressed("ui_down")) animation.Play("walk_down");
-			
-		}
-		else
-		{
-			velocity.X = Mathf.MoveToward(Velocity.X, 0, Speed);
-			velocity.Y = Mathf.MoveToward(Velocity.Y, 0, Speed);
-			animation.Stop();
-		}		
+		velocity = direction  * ACCELERATION * Speed * (float)delta;	
 
 		Velocity = velocity;
 		MoveAndSlide();
+		pickNewState();
 	}
 }
